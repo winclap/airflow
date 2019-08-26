@@ -60,6 +60,13 @@ More tips can be found in the guide:
 https://developers.google.com/style/inclusive-documentation
 
 -->
+## Airflow 1.10.12.winclap
+
+### Change dag loading duration metric name
+Change DAG file loading duration metric from 
+`dag.loading-duration.<dag_id>` to `dag.loading-duration.<dag_file>`. This is to 
+better handle the case when a DAG file has multiple DAGs.
+
 ## Airflow 1.10.12
 
 ### Clearing tasks skipped by SkipMixin will skip them
