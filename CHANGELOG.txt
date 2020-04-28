@@ -1,3 +1,11 @@
+Airflow 1.10.10.1, 2020-04-28
+---------------------------
+
+Improvements
+""""""""""""
+- [AIRFLOW-5274] dag.loading-duration metric name too long (#5890)
+
+
 Airflow 1.10.10, 2020-04-09
 ---------------------------
 
