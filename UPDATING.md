@@ -25,6 +25,7 @@ assists users migrating to a new version.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of contents**
 
+- [Airflow 1.10.10.2](#airflow-110102)
 - [Airflow 1.10.10.1](#airflow-110101)
 - [Airflow 1.10.10](#airflow-11010)
 - [Airflow 1.10.9](#airflow-1109)
@@ -59,6 +60,12 @@ More tips can be found in the guide:
 https://developers.google.com/style/inclusive-documentation
 
 -->
+
+## Airflow 1.10.10.2
+
+### Fix JSON encoding error
+
+The line value with decode set to true is a dictionary not a string.
 
 ## Airflow 1.10.10.1
 

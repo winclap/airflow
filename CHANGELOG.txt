@@ -1,3 +1,11 @@
+Airflow 1.10.10.2, 2020-04-30
+---------------------------
+
+Bug Fixes
+"""""""""
+- [AIRFLOW-4363] Encounter JSON Decode Error when using docker operator (#8287)
+
+
 Airflow 1.10.10.1, 2020-04-28
 ---------------------------
 
