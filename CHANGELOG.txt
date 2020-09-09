@@ -1,3 +1,10 @@
+Airflow 1.10.12.winclap, 2020-09-08
+----------------------------
+
+Bug Fixes
+"""""""""
+- Apply AIRFLOW-5274 fix for dag loading duration metric.
+
 Airflow 1.10.12, 2020-08-25
 ----------------------------
 
